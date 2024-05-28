@@ -1,0 +1,58 @@
+.start{
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+}
+
+.checks{
+    display: flex;
+    gap: 80px;
+}
+
+.checks i {
+    color: green;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 4px;
+    border:  4px solid rgb(207, 207, 207);
+}
+
+.line{
+    width: 80px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    left: 563px;
+    top: 364px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.active{
+    border:4px solid green !important;
+}
+
+
+
+
+
+
+
+
+
